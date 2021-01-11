@@ -1,0 +1,240 @@
+/**********-----------booking wrapper---------*************/
+.booking_wrapper{
+	float:left;
+	width:100%;
+	text-align:center;
+	background-color:#ffffff;
+}
+.booking_box{
+	float:left;
+	width:70%;
+	z-index:5;
+	position:relative;
+	background:#2ec8a6;
+	padding:83px 100px 83px 100px;
+}
+.box_side_icon{
+    position: relative;
+	float:left;
+}
+.box_side_icon:before{
+	content:'';
+	border-right: 120px solid transparent;
+    border-top: 120px solid #f4ab01;
+    position: absolute;
+    left: -85px;
+	top:-83px;
+}
+.box_side_icon img{
+	 top: -50px;
+    left: -62px;
+	color:white;
+    position: absolute;
+}
+.contect_form1 input{
+	width:100%;
+	height:50px;
+	margin-top:20px;
+	padding-left:10px;
+	margin-bottom:10px;
+	color:white;
+	background:transparent;
+	border:2px solid #7bddc7;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.contect_form1 input:hover, .contect_form1 input:focus, .contect_form2 input:hover, .contect_form2 input:focus, .contect_form3 input:hover, .contect_form3 input:focus{
+	border:2px solid #ffffff ;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.contect_form3 input{
+	width:100%;
+	height:50px;
+	margin-top:20px;
+	padding-left:20px;
+	background:transparent;
+	color:white;
+	border:2px solid #7bddc7;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.contect_form3{
+	width:100%; margin-left:-7px;
+}
+.contect_form3 i{
+	margin-left:-30px;
+	color:white;
+}
+.booking_box ::placeholder {
+    color: #7bddc7;
+    opacity: 1; /* Firefox */
+}
+
+.booking_box :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #7bddc7;
+}
+
+.booking_box ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #7bddc7;
+}
+.contect_form4 textarea{
+	width:100%;
+	margin-top:30px;
+	padding-left:10px;
+	color:white;
+	background:transparent;
+	border:2px solid #7bddc7;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+	resize:none;
+}
+.contect_form4 textarea:hover, .contect_form4 textarea:focus{
+	border:2px solid #ffffff;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+} 
+.contect_btn button{
+	padding:0;
+	margin-top:40px;
+	float:left;
+}
+.response{
+	color:#2d2d2d;
+	float:right;
+}
+.contect_btn button{
+	width:160px;
+	height:50px;
+	float:left;
+	color:black;
+	background:#ffffff;
+	text-align:center;
+	line-height:47px;
+	border-radius:50px;
+	font-size:16px;
+	font-weight:bold;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+	border:2px solid transparent;
+}
+.contect_btn button:hover{
+	background:transparent;
+	border:2px solid white;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+	color:#fff;
+}
+.chat_box{
+	float:left;
+	width:30%;
+	z-index:5;
+	box-shadow: 0px 15px 10px -15px #111;
+	background:#f9f9f9;
+	position:relative;
+	padding:100px 60px 80px 60px;
+}
+.booking_box_2{
+	float:left; width:100%;		
+	text-align:center;
+}
+.booking_box_img {
+	text-align:center;
+}
+.booking_box_img img{
+	display:inline-block;
+	position:relative;
+}
+.booking_box_img:after{
+	content: '';
+    position: relative;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2ec8a6;
+    z-index: 100;
+    margin: auto;
+   bottom: 11px; 
+    display: block; 
+    right: 0;
+	top:-14px;
+    bottom: -15px;
+	border: 6px solid #fff;
+}
+.booking_chat{
+	text-align:center; float:left;
+	margin:20px 0 20px 0;
+}
+.booking_chat h1{
+	margin:0px 0px 0px 0px;
+	color:black;
+	font-size:24px;
+	font-weight:700;
+}
+.booking_chat p{
+	color:black;
+	margin-top:30px;
+	font-size:16px;
+}
+.booking_btn ul{
+	list-style:none;
+	float:left;
+}
+.booking_btn li a{
+	width:160px;
+	height:50px;
+	float:left;
+	color:white;
+	background:#f4ab01;
+	text-align:center;
+	line-height:47px;
+	border-radius:50px;
+	font-size:16px;
+	font-weight:bold;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+	border:2px solid transparent;
+}
+.booking_btn li a:hover{
+	background:transparent;
+	border:2px solid #f4ab01;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+	color:#000;
+}
+.map_main_wrapper{
+	float:left;
+	width:100%;
+	position:relative;
+	margin-top:-100px;
+	z-index:1;
+}
+/*********------------partner wrapper--------**************/
